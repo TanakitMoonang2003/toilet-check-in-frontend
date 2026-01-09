@@ -61,7 +61,7 @@ export default function LocationModal({ isOpen, setIsOpen, data }) {
                   </span>
                 ))}
                 <div className='flex justify-center mt-4'>
-                  <img src={`http://localhost:5000/images/${data?.image}`} className='w-auto h-auto object-cover' alt="Image" />
+                  <img src={`${process.env.NEXT_PUBLIC_BACK_END}images/${data?.image}`} className='w-auto h-auto object-cover' alt="Image" />
                 </div>
 
                 <div className='h-24 overflow-auto'>

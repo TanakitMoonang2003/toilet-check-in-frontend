@@ -65,7 +65,7 @@ export default function AddLocationModal({ onCancel, lat, long }) {
         formData.append('longitude', long); // ⬅️ ข้อความ Description
 
         try {
-            const response = await fetch('http://localhost:5000/toilet', {
+            const response = await fetch(process.env.NEXT_PUBLIC_BACK_END + 'toilet', {
                 credentials: "include",
                 method: 'POST',
                 body: formData,

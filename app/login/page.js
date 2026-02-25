@@ -36,7 +36,11 @@ export default function Login() {
             <div>
                 <div className="hidden lg:block">
                     <div className="flex h-screen bg-[#62B699]">
-                        <div className="w-1/2 bg-[#62B699] flex flex-col items-center justify-center">
+                        <div className="w-1/2 bg-[#62B699] flex flex-col items-center justify-center gap-6">
+                            <div className="flex items-center gap-4">
+                                <img src="/a342dacd-21d8-4caa-a1b4-cab9e52666ec.jpg" alt="Chiangmai Technical College" className="w-20 h-20 rounded-full object-cover shadow-lg" />
+                                <img src="/a6488fc5-fe2b-4ae6-86b0-975fc8158fbe.jpg" alt="Information Technology" className="w-20 h-20 rounded-full object-cover shadow-lg" />
+                            </div>
                             <img src="map.svg" alt="Logo" className="w-70 h-auto flex justify-center" />
                             <h1 className="text-white text-2xl font-mono">Toilet Check-In</h1>
                         </div>
@@ -59,7 +63,11 @@ export default function Login() {
 
                 <div className="lg:hidden">
                     <div className="h-screen bg-[#62B699] flex flex-col justify-between">
-                        <div className="flex flex-col items-center mt-10">
+                        <div className="flex flex-col items-center mt-10 gap-4">
+                            <div className="flex items-center gap-3">
+                                <img src="/a342dacd-21d8-4caa-a1b4-cab9e52666ec.jpg" alt="Chiangmai Technical College" className="w-16 h-16 rounded-full object-cover shadow-lg" />
+                                <img src="/a6488fc5-fe2b-4ae6-86b0-975fc8158fbe.jpg" alt="Information Technology" className="w-16 h-16 rounded-full object-cover shadow-lg" />
+                            </div>
                             <img src="map.svg" alt="Logo" className="w-70 h-auto" />
                             <h1 className="text-white text-2xl font-mono">Toilet Check-In</h1>
                         </div>

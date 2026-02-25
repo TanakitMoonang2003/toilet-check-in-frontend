@@ -242,10 +242,15 @@ const Mapbox = ({ pin, setPin }) => {
 
 
 
+      {/* Header logo bar */}
+      <div className="absolute top-0 left-0 w-full z-10 bg-white/90 backdrop-blur-sm shadow-sm flex items-center px-4 py-1">
+        <img src="/e4d32d27-0cc2-49f4-95f3-01ce83d2c07f.jpg" alt="IT Chiangmai Technical College" className="h-10 w-auto object-contain" />
+      </div>
+
       {/* ช่องค้นหาเต็มความกว้าง มี padding ซ้ายขวา */}
       <div
         ref={geocoderContainerRef}
-        className="absolute top-4 px-4 z-10 w-full "
+        className="absolute top-14 px-4 z-10 w-full "
       />
 
       {/* แผนที่ */}
